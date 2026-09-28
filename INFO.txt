@@ -1,0 +1,7 @@
+Sample size estimation:
+---------------------------------
+1. Parallel design: untransformed, LN-transformed
+2. 2x2 crossover: untransformed, LN-transformed
+3. as '2' plus iterative algorithm for increased accuracy
+
+4. Power estimation (sample size)

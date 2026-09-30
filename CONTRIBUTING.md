@@ -1,11 +1,10 @@
-# Contributing
+# Repository policy
 
-1. Create a branch from `main`.
-2. Install development dependencies with `python -m pip install -e ".[dev]"`.
-3. Add or update tests for every behavioural change.
-4. Run `pytest` and `ruff check .`.
-5. Open a pull request describing the formula or behaviour changed.
+This repository is provided as a reference implementation. External contributions,
+issues, discussions, pull requests, and commit comments are not accepted.
+Individual technical support and implementation consulting are not provided.
 
-Changes to statistical formulae should include a citable reference and a
-numerical comparison against validated software or a published table.
-
+The software license continues to govern use and redistribution of the code.
+For local development, install the development dependencies and run `pytest`
+and `ruff check .`. Changes to scientific calculations should be checked against
+an independent reference implementation or published numerical results.
